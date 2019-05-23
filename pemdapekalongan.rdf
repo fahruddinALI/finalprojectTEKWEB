@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbo="http://dbpedia.org/ontology/"
+	xmlns:dbp="http://dbpedia.org/property/"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:ns9="http://dbpedia.org/ontology/PopulatedPlace/"
+	xmlns:georss="http://www.georss.org/georss/"
+	xmlns:ns11="http://purl.org/linguistics/gold/" >
+	
+<rdf:Description rdf:about="http://dbpedia.org/resource/Pekalongan_Regency">
+<dbo:abstract xml:lang="en">Pekalongan is a regency (Indonesian: kabupaten) on the north coast of Central Java province in Indonesia. Its administrative centre was formerly at Pekalongan city, but since that city was administratively separated, the regency&#39;s capital is now Kajen. Pekalongan residents are well known for their pursuit of perfection regarding the Indonesian traditional clothing called Batik. The Dutch name of the regency is &#39;Pacalongan&#39;.
+</dbo:abstract>
+<rdf:type rdf:resource="http://dbpedia.org/ontology/Settlement" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Pekalongan">
+	<rdf:type rdf:resource="http://dbpedia.org/ontology/City"/>
+    <rdf:type rdf:resource="http://schema.org/Place" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q486972" />
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q515" />
+	<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" />
+	
+	<dbo:isPartOf rdf:resource="http://dbpedia.org/resource/Pekalongan_Regency" />
+    <dbo:isPartOf rdf:resource="http://dbpedia.org/resource/Central_Java" />
+	
+	<dbo:populationTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">290870</dbo:populationTotal>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://dbpedia.org/resource/Central_Java">
+	<dbo:abstract xml:lang="en">Central Java (Indonesian: Jawa Tengah, abbreviated as Jateng) is a province of Indonesia. This province is located in the middle of Java. Its administrative capital is Semarang. The province is 32,800.69 km2 in area, approximately a quarter of the total land area of Java. Its population was 33,753,023 at the 2015 Census; it the third most populated province in both Java and Indonesia after West Java and East Java. Central Java is also a cultural concept that includes the Special Region and city of Yogyakarta as well as the Province of Central Java. However, administratively the city and its surrounding regencies have formed a separate special region (equivalent to a province) since Indonesian independence, administrated separately. 
+	</dbo:abstract>
+	 <dbo:populationTotal rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">33753023
+	 </dbo:populationTotal>
+	 <rdf:type rdf:resource="http://dbpedia.org/ontology/Location" />
+	<dbo:leaderName rdf:resource="http://dbpedia.org/resource/Heru_Sudjatmoko" />
+    <dbo:leaderName rdf:resource="http://dbpedia.org/resource/Ganjar_Pranowo" />
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://dbpedia.org/resource/Wonopringgo">
+	<dbo:abstract xml:lang="en">Wonopringgo is a village and subdistrict in Pekalongan Regency in Central Java, Indonesia. It is located south of Pekalongan. The village was an important centre of sugar production with the Karang Anjer Factory in the area during the Dutch East Indies from at least the 1830s when the first Chinese person ran the factory in Wonopringgo. The Amsterdam based Netherlands Trading Company (Nederlandsche Handelmaatschappij or NHM) operated in the village.
+	</dbo:abstract>
+	<rdf:type rdf:resource="http://dbpedia.org/ontology/Village" />
+    <dbo:isPartOf rdf:resource="http://dbpedia.org/resource/Central_Java" />
+    <dbo:isPartOf rdf:resource="http://dbpedia.org/resource/Pekalongan_Regency" />
+	</rdf:Description>
+	</rdf:RDF>
